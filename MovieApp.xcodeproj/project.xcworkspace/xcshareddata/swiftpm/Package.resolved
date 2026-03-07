@@ -1,0 +1,42 @@
+{
+  "originHash" : "71ebf4363ca8b51540963ecfb310af0483b81e12eb68bda90f60dc097f076cf5",
+  "pins" : [
+    {
+      "identity" : "swift-confidential",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/securevale/swift-confidential.git",
+      "state" : {
+        "revision" : "d65ef94802ca01ddacccbab30d7d2ee812a2c980",
+        "version" : "0.5.1"
+      }
+    },
+    {
+      "identity" : "swift-confidential-plugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/securevale/swift-confidential-plugin.git",
+      "state" : {
+        "revision" : "f209aaace217f355e8b3547796d8ee9fabe43e21",
+        "version" : "0.5.1"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "4799286537280063c85a32f09884cfbca301b1a1",
+        "version" : "602.0.0"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "b685b549fe4d8ae265fc7a2f27d0789720425d69",
+        "version" : "2.10.0"
+      }
+    }
+  ],
+  "version" : 3
+}
