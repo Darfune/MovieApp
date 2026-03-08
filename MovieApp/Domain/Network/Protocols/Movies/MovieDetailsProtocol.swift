@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol MovieDetailsProtocol {
+protocol MovieDetailsProtocol {
     func fetchMovieDetails(by id: String) async throws -> MovieDetails
     func fetchMovieDetails(with title: String) async throws -> MovieDetails
 }

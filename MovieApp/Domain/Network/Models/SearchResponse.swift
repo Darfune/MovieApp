@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct SearchResponse: Decodable {
+struct SearchResponse: Decodable {
     let movies: [SearchedMovie]?
     let totalResults: String?
     let response: String

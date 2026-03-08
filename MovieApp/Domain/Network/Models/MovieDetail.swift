@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct MovieDetails: Decodable, Equatable, Identifiable {
+struct MovieDetails: Decodable, Equatable, Identifiable {
     public var id: String { imdbID }
     public let title: String
     public let year: String
@@ -48,7 +48,7 @@ public struct MovieDetails: Decodable, Equatable, Identifiable {
     }
 }
 
-public extension MovieDetails {
+extension MovieDetails {
     static let mocks: [MovieDetails] = [
         MovieDetails(
             title: "The Shawshank Redemption",

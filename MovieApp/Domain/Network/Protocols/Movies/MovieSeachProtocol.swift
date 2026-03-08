@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol MovieSearchProtocol {
+protocol MovieSearchProtocol {
     func searchMovies(query: String, page: Int) async throws -> SearchResponse
 }
