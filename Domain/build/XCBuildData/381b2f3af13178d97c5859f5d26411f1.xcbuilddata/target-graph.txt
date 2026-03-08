@@ -1,0 +1,21 @@
+Target dependency graph (8 targets)
+Target 'Domain' in project 'Domain'
+➜ Explicit dependency on target 'ConfidentialKit' in project 'swift-confidential'
+Target 'ConfidentialKit' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialKit' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialUtils' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialCore' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialKitMacros' in project 'swift-confidential'
+Target 'ConfidentialKit' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialUtils' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialCore' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialKitMacros' in project 'swift-confidential'
+Target 'ConfidentialKitMacros' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialUtils' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialCore' in project 'swift-confidential'
+Target 'ConfidentialCore' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialUtils' in project 'swift-confidential'
+Target 'ConfidentialUtils' in project 'swift-confidential' (no dependencies)
+Target 'ConfidentialCore' in project 'swift-confidential'
+➜ Explicit dependency on target 'ConfidentialUtils' in project 'swift-confidential'
+Target 'ConfidentialUtils' in project 'swift-confidential' (no dependencies)

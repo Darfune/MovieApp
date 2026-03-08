@@ -1,0 +1,26 @@
+{
+  "" : {
+    "const-values" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/ConfidentialKit-primary.swiftconstvalues",
+    "dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/ConfidentialKit-primary.d",
+    "diagnostics" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/ConfidentialKit-primary.dia",
+    "emit-module-dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/ConfidentialKit-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/ConfidentialKit-primary-emit-module.dia",
+    "pch" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/ConfidentialKit-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/ConfidentialKit-primary.swiftdeps"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKit/Exported.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Exported.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Exported.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Exported.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKit/Obfuscation/Macros/Obfuscate.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Obfuscate.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Obfuscate.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Obfuscate.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKit/Obfuscation/Macros/Obfuscated.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Obfuscated.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Obfuscated.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release-iphoneos/ConfidentialKit.build/Objects-normal/arm64/Obfuscated.o"
+  }
+}

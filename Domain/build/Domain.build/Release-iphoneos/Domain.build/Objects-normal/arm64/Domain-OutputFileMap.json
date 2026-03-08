@@ -1,0 +1,76 @@
+{
+  "" : {
+    "const-values" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-primary.swiftconstvalues",
+    "dependencies" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-primary.d",
+    "diagnostics" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-primary.dia",
+    "emit-module-dependencies" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-primary-emit-module.dia",
+    "pch" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-primary.swiftdeps"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Domain.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-b61b1fa0a7607c57f419e9ffcfee37e5.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-b61b1fa0a7607c57f419e9ffcfee37e5.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Domain-b61b1fa0a7607c57f419e9ffcfee37e5.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Constants/ApiError.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ApiError.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ApiError.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ApiError.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Constants/NetworkConstants.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/NetworkConstants.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/NetworkConstants.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/NetworkConstants.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Extensions/Codable+.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Codable+.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Codable+.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/Codable+.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Extensions/UrlRequestCovertible+.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/UrlRequestCovertible+.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/UrlRequestCovertible+.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/UrlRequestCovertible+.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Models/MovieDetail.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieDetail.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieDetail.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieDetail.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Models/SearchResponse.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/SearchResponse.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/SearchResponse.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/SearchResponse.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Models/SearchedMovie.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/SearchedMovie.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/SearchedMovie.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/SearchedMovie.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Base/ApiClient.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ApiClient.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ApiClient.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ApiClient.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Base/ResponseHandler.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ResponseHandler.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ResponseHandler.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/ResponseHandler.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Base/UrlRequestConvertible.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/UrlRequestConvertible.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/UrlRequestConvertible.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/UrlRequestConvertible.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Movies/MovieDetailsProtocol.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieDetailsProtocol.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieDetailsProtocol.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieDetailsProtocol.o"
+  },
+  "/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Movies/MovieSeachProtocol.swift" : {
+    "index-unit-output-path" : "/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieSeachProtocol.o",
+    "llvm-bc" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieSeachProtocol.bc",
+    "object" : "/Users/jcharalampidis/Projects/MovieApp/Domain/build/Domain.build/Release-iphoneos/Domain.build/Objects-normal/arm64/MovieSeachProtocol.o"
+  }
+}

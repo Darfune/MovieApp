@@ -1,0 +1,4 @@
+module ConfidentialUtils {
+header "ConfidentialUtils-Swift.h"
+export *
+}

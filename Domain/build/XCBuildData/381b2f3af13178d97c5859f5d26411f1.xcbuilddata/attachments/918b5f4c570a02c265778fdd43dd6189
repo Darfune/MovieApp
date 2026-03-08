@@ -1,0 +1,4 @@
+module ConfidentialCore {
+header "ConfidentialCore-Swift.h"
+export *
+}

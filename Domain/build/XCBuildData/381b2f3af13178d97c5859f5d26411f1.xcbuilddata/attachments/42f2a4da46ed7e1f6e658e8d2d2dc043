@@ -1,0 +1,4 @@
+module ConfidentialKit {
+header "ConfidentialKit-Swift.h"
+export *
+}

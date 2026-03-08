@@ -1,0 +1,186 @@
+{
+  "" : {
+    "const-values" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ConfidentialKitMacros-primary.swiftconstvalues",
+    "dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ConfidentialKitMacros-primary.d",
+    "diagnostics" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ConfidentialKitMacros-primary.dia",
+    "emit-module-dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ConfidentialKitMacros-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ConfidentialKitMacros-primary-emit-module.dia",
+    "pch" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ConfidentialKitMacros-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ConfidentialKitMacros-primary.swiftdeps"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Coding/DataEncoder.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataEncoder.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataEncoder.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataEncoder.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Constants/Constants.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Constants.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Diagnostics.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Diagnostics.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Diagnostics.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Diagnostics.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Extensions/ConfidentialCore/Obfuscation/Compression/CompressionAlgorithm+Identifier.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/CompressionAlgorithm+Identifier.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/CompressionAlgorithm+Identifier.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/CompressionAlgorithm+Identifier.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Extensions/ConfidentialCore/Obfuscation/Encryption/SymmetricEncryptionAlgorithm+Identifier.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SymmetricEncryptionAlgorithm+Identifier.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SymmetricEncryptionAlgorithm+Identifier.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SymmetricEncryptionAlgorithm+Identifier.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Extensions/Swift/FixedWidthInteger/FixedWidthInteger+SecureRandom.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/FixedWidthInteger+SecureRandom.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/FixedWidthInteger+SecureRandom.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/FixedWidthInteger+SecureRandom.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Extensions/Swift/Sequence/Sequence+HexString.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Sequence+HexString.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Sequence+HexString.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Sequence+HexString.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Extensions/SwiftSyntax/LabeledExprListSyntax/LabeledExprListSyntax+FirstLabeled.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/LabeledExprListSyntax+FirstLabeled.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/LabeledExprListSyntax+FirstLabeled.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/LabeledExprListSyntax+FirstLabeled.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Extensions/SwiftSyntax/TokenSyntax/TokenSyntax+IsWildcardToken.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/TokenSyntax+IsWildcardToken.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/TokenSyntax+IsWildcardToken.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/TokenSyntax+IsWildcardToken.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Extensions/SwiftSyntax/VariableDeclSyntax/VariableDeclSyntax+ConvenienceInitializers.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/VariableDeclSyntax+ConvenienceInitializers.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/VariableDeclSyntax+ConvenienceInitializers.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/VariableDeclSyntax+ConvenienceInitializers.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Macros/Obfuscate/ObfuscateMacro+Arguments.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Arguments.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Arguments.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Arguments.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Macros/Obfuscate/ObfuscateMacro+Configuration.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Configuration.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Configuration.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Configuration.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Macros/Obfuscate/ObfuscateMacro+Diagnostics.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Diagnostics.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Diagnostics.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro+Diagnostics.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Macros/Obfuscate/ObfuscateMacro.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscateMacro.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Macros/Obfuscated/ObfuscatedMacro+Constants.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro+Constants.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro+Constants.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro+Constants.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Macros/Obfuscated/ObfuscatedMacro+Diagnostics.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro+Diagnostics.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro+Diagnostics.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro+Diagnostics.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Macros/Obfuscated/ObfuscatedMacro.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedMacro.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Obfuscation/AlgorithmGenerator.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/AlgorithmGenerator.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/AlgorithmGenerator.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/AlgorithmGenerator.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Obfuscation/DataObfuscationStep.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataObfuscationStep.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataObfuscationStep.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataObfuscationStep.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Obfuscation/SecretObfuscator+ObfuscationStepResolver.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretObfuscator+ObfuscationStepResolver.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretObfuscator+ObfuscationStepResolver.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretObfuscator+ObfuscationStepResolver.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Obfuscation/SecretObfuscator.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretObfuscator.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretObfuscator.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretObfuscator.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Obfuscation/Techniques/Compression/DataCompressor+DataObfuscationStep.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCompressor+DataObfuscationStep.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCompressor+DataObfuscationStep.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCompressor+DataObfuscationStep.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Obfuscation/Techniques/Encryption/DataCrypter+DataObfuscationStep.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCrypter+DataObfuscationStep.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCrypter+DataObfuscationStep.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCrypter+DataObfuscationStep.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Obfuscation/Techniques/Randomization/DataShuffler+DataObfuscationStep.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataShuffler+DataObfuscationStep.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataShuffler+DataObfuscationStep.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataShuffler+DataObfuscationStep.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/Plugin.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Plugin.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Plugin.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/Plugin.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Attributes/ObfuscatedAttribute.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedAttribute.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedAttribute.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/ObfuscatedAttribute.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Declarations/SecretProjectionVariableDecl.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretProjectionVariableDecl.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretProjectionVariableDecl.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretProjectionVariableDecl.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Declarations/SecretVariableDecl.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretVariableDecl.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretVariableDecl.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/SecretVariableDecl.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Expressions/DataCompressorInitializerCallExpr.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCompressorInitializerCallExpr.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCompressorInitializerCallExpr.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCompressorInitializerCallExpr.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Expressions/DataCrypterInitializerCallExpr.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCrypterInitializerCallExpr.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCrypterInitializerCallExpr.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataCrypterInitializerCallExpr.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Expressions/DataShufflerInitializerCallExpr.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataShufflerInitializerCallExpr.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataShufflerInitializerCallExpr.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DataShufflerInitializerCallExpr.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Expressions/DeobfuscateDataClosureExpr.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DeobfuscateDataClosureExpr.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DeobfuscateDataClosureExpr.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/DeobfuscateDataClosureExpr.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Expressions/NonceExpr.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/NonceExpr.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/NonceExpr.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/NonceExpr.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Expressions/PreconditionFailureFunctionCallExpr.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/PreconditionFailureFunctionCallExpr.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/PreconditionFailureFunctionCallExpr.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/PreconditionFailureFunctionCallExpr.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialKitMacros/SyntaxNodes/Expressions/UInt8ArrayExpr.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/UInt8ArrayExpr.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/UInt8ArrayExpr.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialKitMacros.build/Objects-normal/arm64/UInt8ArrayExpr.o"
+  }
+}

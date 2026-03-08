@@ -1,0 +1,13 @@
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Constants/ApiError.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Constants/NetworkConstants.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Extensions/Codable+.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Extensions/UrlRequestCovertible+.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Models/MovieDetail.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Models/SearchedMovie.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Models/SearchResponse.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Base/ApiClient.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Base/ResponseHandler.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Base/UrlRequestConvertible.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Movies/MovieDetailsProtocol.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Network/Protocols/Movies/MovieSeachProtocol.swift
+/Users/jcharalampidis/Projects/MovieApp/Domain/Domain/Domain.swift

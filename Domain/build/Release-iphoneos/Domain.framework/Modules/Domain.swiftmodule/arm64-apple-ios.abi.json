@@ -1,0 +1,4794 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Domain",
+    "printedName": "Domain",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApiError",
+        "printedName": "ApiError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Domain.ApiError.Type) -> Domain.ApiError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiError",
+                    "printedName": "Domain.ApiError",
+                    "usr": "s:6Domain8ApiErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Domain.ApiError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiError",
+                        "printedName": "Domain.ApiError",
+                        "usr": "s:6Domain8ApiErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Domain8ApiErrorO12unauthorizedyA2CmF",
+            "mangledName": "$s6Domain8ApiErrorO12unauthorizedyA2CmF",
+            "moduleName": "Domain"
+          },
+          {
+            "kind": "Var",
+            "name": "notFound",
+            "printedName": "notFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Domain.ApiError.Type) -> Domain.ApiError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiError",
+                    "printedName": "Domain.ApiError",
+                    "usr": "s:6Domain8ApiErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Domain.ApiError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiError",
+                        "printedName": "Domain.ApiError",
+                        "usr": "s:6Domain8ApiErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Domain8ApiErrorO8notFoundyA2CmF",
+            "mangledName": "$s6Domain8ApiErrorO8notFoundyA2CmF",
+            "moduleName": "Domain"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Domain.ApiError.Type) -> Domain.ApiError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiError",
+                    "printedName": "Domain.ApiError",
+                    "usr": "s:6Domain8ApiErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Domain.ApiError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiError",
+                        "printedName": "Domain.ApiError",
+                        "usr": "s:6Domain8ApiErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Domain8ApiErrorO06serverC0yA2CmF",
+            "mangledName": "$s6Domain8ApiErrorO06serverC0yA2CmF",
+            "moduleName": "Domain"
+          },
+          {
+            "kind": "Var",
+            "name": "unexpectedStatusCode",
+            "printedName": "unexpectedStatusCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Domain.ApiError.Type) -> (Swift.Int) -> Domain.ApiError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> Domain.ApiError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiError",
+                        "printedName": "Domain.ApiError",
+                        "usr": "s:6Domain8ApiErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Domain.ApiError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiError",
+                        "printedName": "Domain.ApiError",
+                        "usr": "s:6Domain8ApiErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Domain8ApiErrorO20unexpectedStatusCodeyACSicACmF",
+            "mangledName": "$s6Domain8ApiErrorO20unexpectedStatusCodeyACSicACmF",
+            "moduleName": "Domain"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingFailed",
+            "printedName": "decodingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Domain.ApiError.Type) -> Domain.ApiError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiError",
+                    "printedName": "Domain.ApiError",
+                    "usr": "s:6Domain8ApiErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Domain.ApiError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiError",
+                        "printedName": "Domain.ApiError",
+                        "usr": "s:6Domain8ApiErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Domain8ApiErrorO14decodingFailedyA2CmF",
+            "mangledName": "$s6Domain8ApiErrorO14decodingFailedyA2CmF",
+            "moduleName": "Domain"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Domain.ApiError.Type) -> Domain.ApiError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiError",
+                    "printedName": "Domain.ApiError",
+                    "usr": "s:6Domain8ApiErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Domain.ApiError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiError",
+                        "printedName": "Domain.ApiError",
+                        "usr": "s:6Domain8ApiErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Domain8ApiErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s6Domain8ApiErrorO15invalidResponseyA2CmF",
+            "moduleName": "Domain"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApiError",
+                "printedName": "Domain.ApiError",
+                "usr": "s:6Domain8ApiErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApiError",
+                "printedName": "Domain.ApiError",
+                "usr": "s:6Domain8ApiErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain8ApiErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6Domain8ApiErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "Domain",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Domain8ApiErrorO",
+        "mangledName": "$s6Domain8ApiErrorO",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkConstants",
+        "printedName": "NetworkConstants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain16NetworkConstantsV6apiKeySSvpZ",
+            "mangledName": "$s6Domain16NetworkConstantsV6apiKeySSvpZ",
+            "moduleName": "Domain",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain16NetworkConstantsV6apiKeySSvgZ",
+                "mangledName": "$s6Domain16NetworkConstantsV6apiKeySSvgZ",
+                "moduleName": "Domain",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain16NetworkConstantsV6apiKeySSvsZ",
+                "mangledName": "$s6Domain16NetworkConstantsV6apiKeySSvsZ",
+                "moduleName": "Domain",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain16NetworkConstantsV6apiKeySSvMZ",
+                "mangledName": "$s6Domain16NetworkConstantsV6apiKeySSvMZ",
+                "moduleName": "Domain",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain16NetworkConstantsV7baseURLSSvpZ",
+            "mangledName": "$s6Domain16NetworkConstantsV7baseURLSSvpZ",
+            "moduleName": "Domain",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain16NetworkConstantsV7baseURLSSvgZ",
+                "mangledName": "$s6Domain16NetworkConstantsV7baseURLSSvgZ",
+                "moduleName": "Domain",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain16NetworkConstantsV7baseURLSSvsZ",
+                "mangledName": "$s6Domain16NetworkConstantsV7baseURLSSvsZ",
+                "moduleName": "Domain",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain16NetworkConstantsV7baseURLSSvMZ",
+                "mangledName": "$s6Domain16NetworkConstantsV7baseURLSSvMZ",
+                "moduleName": "Domain",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "HttpHeaderField",
+            "printedName": "HttpHeaderField",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "auth",
+                "printedName": "auth",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Domain.NetworkConstants.HttpHeaderField.Type) -> Domain.NetworkConstants.HttpHeaderField",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeaderField",
+                        "printedName": "Domain.NetworkConstants.HttpHeaderField",
+                        "usr": "s:6Domain16NetworkConstantsV15HttpHeaderFieldO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Domain.NetworkConstants.HttpHeaderField.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HttpHeaderField",
+                            "printedName": "Domain.NetworkConstants.HttpHeaderField",
+                            "usr": "s:6Domain16NetworkConstantsV15HttpHeaderFieldO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Domain16NetworkConstantsV15HttpHeaderFieldO4authyA2EmF",
+                "mangledName": "$s6Domain16NetworkConstantsV15HttpHeaderFieldO4authyA2EmF",
+                "moduleName": "Domain"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Domain.NetworkConstants.HttpHeaderField?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeaderField",
+                        "printedName": "Domain.NetworkConstants.HttpHeaderField",
+                        "usr": "s:6Domain16NetworkConstantsV15HttpHeaderFieldO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6Domain16NetworkConstantsV15HttpHeaderFieldO8rawValueAESgSS_tcfc",
+                "mangledName": "$s6Domain16NetworkConstantsV15HttpHeaderFieldO8rawValueAESgSS_tcfc",
+                "moduleName": "Domain",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Domain16NetworkConstantsV15HttpHeaderFieldO8rawValueSSvp",
+                "mangledName": "$s6Domain16NetworkConstantsV15HttpHeaderFieldO8rawValueSSvp",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Domain16NetworkConstantsV15HttpHeaderFieldO8rawValueSSvg",
+                    "mangledName": "$s6Domain16NetworkConstantsV15HttpHeaderFieldO8rawValueSSvg",
+                    "moduleName": "Domain",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6Domain16NetworkConstantsV15HttpHeaderFieldO",
+            "mangledName": "$s6Domain16NetworkConstantsV15HttpHeaderFieldO",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Method",
+            "printedName": "Method",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "get",
+                "printedName": "get",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Domain.NetworkConstants.Method.Type) -> Domain.NetworkConstants.Method",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Method",
+                        "printedName": "Domain.NetworkConstants.Method",
+                        "usr": "s:6Domain16NetworkConstantsV6MethodO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Domain.NetworkConstants.Method.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Method",
+                            "printedName": "Domain.NetworkConstants.Method",
+                            "usr": "s:6Domain16NetworkConstantsV6MethodO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Domain16NetworkConstantsV6MethodO3getyA2EmF",
+                "mangledName": "$s6Domain16NetworkConstantsV6MethodO3getyA2EmF",
+                "moduleName": "Domain"
+              },
+              {
+                "kind": "Var",
+                "name": "post",
+                "printedName": "post",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Domain.NetworkConstants.Method.Type) -> Domain.NetworkConstants.Method",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Method",
+                        "printedName": "Domain.NetworkConstants.Method",
+                        "usr": "s:6Domain16NetworkConstantsV6MethodO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Domain.NetworkConstants.Method.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Method",
+                            "printedName": "Domain.NetworkConstants.Method",
+                            "usr": "s:6Domain16NetworkConstantsV6MethodO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Domain16NetworkConstantsV6MethodO4postyA2EmF",
+                "mangledName": "$s6Domain16NetworkConstantsV6MethodO4postyA2EmF",
+                "moduleName": "Domain"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Domain.NetworkConstants.Method?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Method",
+                        "printedName": "Domain.NetworkConstants.Method",
+                        "usr": "s:6Domain16NetworkConstantsV6MethodO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6Domain16NetworkConstantsV6MethodO8rawValueAESgSS_tcfc",
+                "mangledName": "$s6Domain16NetworkConstantsV6MethodO8rawValueAESgSS_tcfc",
+                "moduleName": "Domain",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Domain16NetworkConstantsV6MethodO8rawValueSSvp",
+                "mangledName": "$s6Domain16NetworkConstantsV6MethodO8rawValueSSvp",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Domain16NetworkConstantsV6MethodO8rawValueSSvg",
+                    "mangledName": "$s6Domain16NetworkConstantsV6MethodO8rawValueSSvg",
+                    "moduleName": "Domain",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6Domain16NetworkConstantsV6MethodO",
+            "mangledName": "$s6Domain16NetworkConstantsV6MethodO",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6Domain16NetworkConstantsV",
+        "mangledName": "$s6Domain16NetworkConstantsV",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "jsonEncoder",
+        "printedName": "jsonEncoder",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "JSONEncoder",
+            "printedName": "Foundation.JSONEncoder",
+            "usr": "s:10Foundation11JSONEncoderC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:6Domain11jsonEncoder10Foundation11JSONEncoderCvp",
+        "mangledName": "$s6Domain11jsonEncoder10Foundation11JSONEncoderCvp",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSONEncoder",
+                "printedName": "Foundation.JSONEncoder",
+                "usr": "s:10Foundation11JSONEncoderC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:6Domain11jsonEncoder10Foundation11JSONEncoderCvg",
+            "mangledName": "$s6Domain11jsonEncoder10Foundation11JSONEncoderCvg",
+            "moduleName": "Domain",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "jsonDecoder",
+        "printedName": "jsonDecoder",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "JSONDecoder",
+            "printedName": "Foundation.JSONDecoder",
+            "usr": "s:10Foundation11JSONDecoderC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:6Domain11jsonDecoder10Foundation11JSONDecoderCvp",
+        "mangledName": "$s6Domain11jsonDecoder10Foundation11JSONDecoderCvp",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSONDecoder",
+                "printedName": "Foundation.JSONDecoder",
+                "usr": "s:10Foundation11JSONDecoderC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:6Domain11jsonDecoder10Foundation11JSONDecoderCvg",
+            "mangledName": "$s6Domain11jsonDecoder10Foundation11JSONDecoderCvg",
+            "moduleName": "Domain",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MovieDetails",
+        "printedName": "MovieDetails",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV2idSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV2idSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV2idSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV2idSSvg",
+                "moduleName": "Domain",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV5titleSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV5titleSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV5titleSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV5titleSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "year",
+            "printedName": "year",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV4yearSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV4yearSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV4yearSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV4yearSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rated",
+            "printedName": "rated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV5ratedSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV5ratedSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV5ratedSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV5ratedSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "released",
+            "printedName": "released",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV8releasedSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV8releasedSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV8releasedSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV8releasedSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "runtime",
+            "printedName": "runtime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV7runtimeSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV7runtimeSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV7runtimeSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV7runtimeSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "genre",
+            "printedName": "genre",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV5genreSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV5genreSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV5genreSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV5genreSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "director",
+            "printedName": "director",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV8directorSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV8directorSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV8directorSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV8directorSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "writer",
+            "printedName": "writer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV6writerSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV6writerSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV6writerSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV6writerSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actors",
+            "printedName": "actors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV6actorsSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV6actorsSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV6actorsSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV6actorsSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "plot",
+            "printedName": "plot",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV4plotSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV4plotSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV4plotSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV4plotSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV8languageSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV8languageSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV8languageSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV8languageSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV7countrySSvp",
+            "mangledName": "$s6Domain12MovieDetailsV7countrySSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV7countrySSvg",
+                "mangledName": "$s6Domain12MovieDetailsV7countrySSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "awards",
+            "printedName": "awards",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV6awardsSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV6awardsSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV6awardsSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV6awardsSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "poster",
+            "printedName": "poster",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV6posterSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV6posterSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV6posterSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV6posterSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imdbRating",
+            "printedName": "imdbRating",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV10imdbRatingSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV10imdbRatingSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV10imdbRatingSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV10imdbRatingSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imdbID",
+            "printedName": "imdbID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV6imdbIDSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV6imdbIDSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV6imdbIDSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV6imdbIDSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV4typeSSvp",
+            "mangledName": "$s6Domain12MovieDetailsV4typeSSvp",
+            "moduleName": "Domain",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV4typeSSvg",
+                "mangledName": "$s6Domain12MovieDetailsV4typeSSvg",
+                "moduleName": "Domain",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MovieDetails",
+                "printedName": "Domain.MovieDetails",
+                "usr": "s:6Domain12MovieDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Domain12MovieDetailsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6Domain12MovieDetailsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Domain",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MovieDetails",
+                "printedName": "Domain.MovieDetails",
+                "usr": "s:6Domain12MovieDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MovieDetails",
+                "printedName": "Domain.MovieDetails",
+                "usr": "s:6Domain12MovieDetailsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain12MovieDetailsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6Domain12MovieDetailsV2eeoiySbAC_ACtFZ",
+            "moduleName": "Domain",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "mocks",
+            "printedName": "mocks",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Domain.MovieDetails]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MovieDetails",
+                    "printedName": "Domain.MovieDetails",
+                    "usr": "s:6Domain12MovieDetailsV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain12MovieDetailsV5mocksSayACGvpZ",
+            "mangledName": "$s6Domain12MovieDetailsV5mocksSayACGvpZ",
+            "moduleName": "Domain",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Domain.MovieDetails]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MovieDetails",
+                        "printedName": "Domain.MovieDetails",
+                        "usr": "s:6Domain12MovieDetailsV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain12MovieDetailsV5mocksSayACGvgZ",
+                "mangledName": "$s6Domain12MovieDetailsV5mocksSayACGvgZ",
+                "moduleName": "Domain",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6Domain12MovieDetailsV",
+        "mangledName": "$s6Domain12MovieDetailsV",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SearchResponse",
+        "printedName": "SearchResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SearchResponse",
+                "printedName": "Domain.SearchResponse",
+                "usr": "s:6Domain14SearchResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Domain14SearchResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6Domain14SearchResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Domain",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6Domain14SearchResponseV",
+        "mangledName": "$s6Domain14SearchResponseV",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApiClient",
+        "printedName": "ApiClient",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "makeRequest",
+            "printedName": "makeRequest(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain9ApiClientP11makeRequest2toqd__10Foundation10URLRequestV_tYaKSeRd__lF",
+            "mangledName": "$s6Domain9ApiClientP11makeRequest2toqd__10Foundation10URLRequestV_tYaKSeRd__lF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Domain.ApiClient, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : Domain.ApiClient, T : Swift.Decodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Domain9ApiClientP",
+        "mangledName": "$s6Domain9ApiClientP",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResponseHandler",
+        "printedName": "ResponseHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validateResponse",
+            "printedName": "validateResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLResponse",
+                "printedName": "Foundation.URLResponse",
+                "usr": "c:objc(cs)NSURLResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain15ResponseHandlerP08validateB0yySo13NSURLResponseCKF",
+            "mangledName": "$s6Domain15ResponseHandlerP08validateB0yySo13NSURLResponseCKF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Domain.ResponseHandler>",
+            "sugared_genericSig": "<Self where Self : Domain.ResponseHandler>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain15ResponseHandlerP6decodeyqd__10Foundation4DataVKSeRd__lF",
+            "mangledName": "$s6Domain15ResponseHandlerP6decodeyqd__10Foundation4DataVKSeRd__lF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Domain.ResponseHandler, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : Domain.ResponseHandler, T : Swift.Decodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Domain15ResponseHandlerP",
+        "mangledName": "$s6Domain15ResponseHandlerP",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UrlRequestConvertible",
+        "printedName": "UrlRequestConvertible",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain21UrlRequestConvertibleP3urlSSvp",
+            "mangledName": "$s6Domain21UrlRequestConvertibleP3urlSSvp",
+            "moduleName": "Domain",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain21UrlRequestConvertibleP3urlSSvg",
+                "mangledName": "$s6Domain21UrlRequestConvertibleP3urlSSvg",
+                "moduleName": "Domain",
+                "genericSig": "<τ_0_0 where τ_0_0 : Domain.UrlRequestConvertible>",
+                "sugared_genericSig": "<Self where Self : Domain.UrlRequestConvertible>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryParams",
+            "printedName": "queryParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain21UrlRequestConvertibleP11queryParamsSDyS2SGvp",
+            "mangledName": "$s6Domain21UrlRequestConvertibleP11queryParamsSDyS2SGvp",
+            "moduleName": "Domain",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain21UrlRequestConvertibleP11queryParamsSDyS2SGvg",
+                "mangledName": "$s6Domain21UrlRequestConvertibleP11queryParamsSDyS2SGvg",
+                "moduleName": "Domain",
+                "genericSig": "<τ_0_0 where τ_0_0 : Domain.UrlRequestConvertible>",
+                "sugared_genericSig": "<Self where Self : Domain.UrlRequestConvertible>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(key: Swift.String, value: Swift.String)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(key: Swift.String, value: Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain21UrlRequestConvertibleP7headersSS3key_SS5valuetSgvp",
+            "mangledName": "$s6Domain21UrlRequestConvertibleP7headersSS3key_SS5valuetSgvp",
+            "moduleName": "Domain",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(key: Swift.String, value: Swift.String)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(key: Swift.String, value: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain21UrlRequestConvertibleP7headersSS3key_SS5valuetSgvg",
+                "mangledName": "$s6Domain21UrlRequestConvertibleP7headersSS3key_SS5valuetSgvg",
+                "moduleName": "Domain",
+                "genericSig": "<τ_0_0 where τ_0_0 : Domain.UrlRequestConvertible>",
+                "sugared_genericSig": "<Self where Self : Domain.UrlRequestConvertible>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain21UrlRequestConvertibleP6methodSSvp",
+            "mangledName": "$s6Domain21UrlRequestConvertibleP6methodSSvp",
+            "moduleName": "Domain",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain21UrlRequestConvertibleP6methodSSvg",
+                "mangledName": "$s6Domain21UrlRequestConvertibleP6methodSSvg",
+                "moduleName": "Domain",
+                "genericSig": "<τ_0_0 where τ_0_0 : Domain.UrlRequestConvertible>",
+                "sugared_genericSig": "<Self where Self : Domain.UrlRequestConvertible>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Domain21UrlRequestConvertibleP4body10Foundation4DataVSgvp",
+            "mangledName": "$s6Domain21UrlRequestConvertibleP4body10Foundation4DataVSgvp",
+            "moduleName": "Domain",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Domain21UrlRequestConvertibleP4body10Foundation4DataVSgvg",
+                "mangledName": "$s6Domain21UrlRequestConvertibleP4body10Foundation4DataVSgvg",
+                "moduleName": "Domain",
+                "genericSig": "<τ_0_0 where τ_0_0 : Domain.UrlRequestConvertible>",
+                "sugared_genericSig": "<Self where Self : Domain.UrlRequestConvertible>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "asURLRequest",
+            "printedName": "asURLRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain21UrlRequestConvertibleP12asURLRequest10Foundation0F0VyKF",
+            "mangledName": "$s6Domain21UrlRequestConvertibleP12asURLRequest10Foundation0F0VyKF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Domain.UrlRequestConvertible>",
+            "sugared_genericSig": "<Self where Self : Domain.UrlRequestConvertible>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asUrlRequest",
+            "printedName": "asUrlRequest(withTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain21UrlRequestConvertiblePAAE02asbC011withTimeout10Foundation10URLRequestVSd_tKF",
+            "mangledName": "$s6Domain21UrlRequestConvertiblePAAE02asbC011withTimeout10Foundation10URLRequestVSd_tKF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Domain.UrlRequestConvertible>",
+            "sugared_genericSig": "<Self where Self : Domain.UrlRequestConvertible>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asURLRequest",
+            "printedName": "asURLRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain21UrlRequestConvertiblePAAE12asURLRequest10Foundation0F0VyKF",
+            "mangledName": "$s6Domain21UrlRequestConvertiblePAAE12asURLRequest10Foundation0F0VyKF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Domain.UrlRequestConvertible>",
+            "sugared_genericSig": "<Self where Self : Domain.UrlRequestConvertible>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Domain21UrlRequestConvertibleP",
+        "mangledName": "$s6Domain21UrlRequestConvertibleP",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MovieDetailsProtocol",
+        "printedName": "MovieDetailsProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchMovieDetails",
+            "printedName": "fetchMovieDetails(by:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MovieDetails",
+                "printedName": "Domain.MovieDetails",
+                "usr": "s:6Domain12MovieDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain20MovieDetailsProtocolP05fetchbC02byAA0bC0VSi_tYaKF",
+            "mangledName": "$s6Domain20MovieDetailsProtocolP05fetchbC02byAA0bC0VSi_tYaKF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Domain.MovieDetailsProtocol>",
+            "sugared_genericSig": "<Self where Self : Domain.MovieDetailsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchMovieDetails",
+            "printedName": "fetchMovieDetails(by:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MovieDetails",
+                "printedName": "Domain.MovieDetails",
+                "usr": "s:6Domain12MovieDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain20MovieDetailsProtocolP05fetchbC02byAA0bC0VSS_tYaKF",
+            "mangledName": "$s6Domain20MovieDetailsProtocolP05fetchbC02byAA0bC0VSS_tYaKF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Domain.MovieDetailsProtocol>",
+            "sugared_genericSig": "<Self where Self : Domain.MovieDetailsProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Domain20MovieDetailsProtocolP",
+        "mangledName": "$s6Domain20MovieDetailsProtocolP",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MovieSearchProtocol",
+        "printedName": "MovieSearchProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "searchMovies",
+            "printedName": "searchMovies(query:page:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SearchResponse",
+                "printedName": "Domain.SearchResponse",
+                "usr": "s:6Domain14SearchResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Domain19MovieSearchProtocolP12searchMovies5query4pageAA0C8ResponseVSS_SitYaKF",
+            "mangledName": "$s6Domain19MovieSearchProtocolP12searchMovies5query4pageAA0C8ResponseVSS_SitYaKF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Domain.MovieSearchProtocol>",
+            "sugared_genericSig": "<Self where Self : Domain.MovieSearchProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Domain19MovieSearchProtocolP",
+        "mangledName": "$s6Domain19MovieSearchProtocolP",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Domain",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Encodable",
+        "printedName": "Encodable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONEncoder",
+                "printedName": "Foundation.JSONEncoder",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation11JSONEncoderC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SE6DomainE6encodey10Foundation4DataVSgAC11JSONEncoderCF",
+            "mangledName": "$sSE6DomainE6encodey10Foundation4DataVSgAC11JSONEncoderCF",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self where Self : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:SE",
+        "mangledName": "$sSE",
+        "moduleName": "Swift",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Decodable",
+        "printedName": "Decodable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(from:using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONDecoder",
+                "printedName": "Foundation.JSONDecoder",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation11JSONDecoderC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Se6DomainE6decode4from5usingxSg10Foundation4DataV_AF11JSONDecoderCtFZ",
+            "mangledName": "$sSe6DomainE6decode4from5usingxSg10Foundation4DataV_AF11JSONDecoderCtFZ",
+            "moduleName": "Domain",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self where Self : Swift.Decodable>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:Se",
+        "mangledName": "$sSe",
+        "moduleName": "Swift",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Constants\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 19,
+      "value": "\"your_api_key_here\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Constants\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 25,
+      "value": "\"https:\/\/www.omdbapi.com\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Constants\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 16,
+      "value": "\"Authentication\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Constants\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Constants\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 6,
+      "value": "\"Year\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 848,
+      "length": 7,
+      "value": "\"Rated\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 880,
+      "length": 10,
+      "value": "\"Released\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 9,
+      "value": "\"Runtime\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 7,
+      "value": "\"Genre\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 10,
+      "value": "\"Director\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 8,
+      "value": "\"Writer\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 8,
+      "value": "\"Actors\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1070,
+      "length": 6,
+      "value": "\"Plot\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 10,
+      "value": "\"Language\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 9,
+      "value": "\"Country\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1167,
+      "length": 8,
+      "value": "\"Awards\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1198,
+      "length": 8,
+      "value": "\"Poster\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1233,
+      "length": 12,
+      "value": "\"imdbRating\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1268,
+      "length": 8,
+      "value": "\"imdbID\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1297,
+      "length": 6,
+      "value": "\"Type\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 26,
+      "value": "\"The Shawshank Redemption\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1473,
+      "length": 6,
+      "value": "\"1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1527,
+      "length": 13,
+      "value": "\"14 Oct 1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1563,
+      "length": 9,
+      "value": "\"142 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1593,
+      "length": 7,
+      "value": "\"Drama\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1624,
+      "length": 16,
+      "value": "\"Frank Darabont\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1662,
+      "length": 30,
+      "value": "\"Stephen King, Frank Darabont\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 41,
+      "value": "\"Tim Robbins, Morgan Freeman, Bob Gunton\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1775,
+      "length": 147,
+      "value": "\"Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic human compassion.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1946,
+      "length": 9,
+      "value": "\"English\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1978,
+      "length": 15,
+      "value": "\"United States\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2015,
+      "length": 57,
+      "value": "\"Nominated for 7 Oscars. 21 wins & 43 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2094,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 5,
+      "value": "\"9.3\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2279,
+      "length": 11,
+      "value": "\"tt0111161\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2310,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2370,
+      "length": 15,
+      "value": "\"The Godfather\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2405,
+      "length": 6,
+      "value": "\"1972\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2432,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2459,
+      "length": 13,
+      "value": "\"24 Mar 1972\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2495,
+      "length": 9,
+      "value": "\"175 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
+      "length": 14,
+      "value": "\"Crime, Drama\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2563,
+      "length": 22,
+      "value": "\"Francis Ford Coppola\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2607,
+      "length": 34,
+      "value": "\"Mario Puzo, Francis Ford Coppola\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2663,
+      "length": 38,
+      "value": "\"Marlon Brando, Al Pacino, James Caan\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2721,
+      "length": 126,
+      "value": "\"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant youngest son.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2871,
+      "length": 25,
+      "value": "\"English, Italian, Latin\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2919,
+      "length": 15,
+      "value": "\"United States\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2956,
+      "length": 47,
+      "value": "\"Won 3 Oscars. 31 wins & 30 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3025,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3183,
+      "length": 5,
+      "value": "\"9.2\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3210,
+      "length": 11,
+      "value": "\"tt0068646\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3241,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3301,
+      "length": 11,
+      "value": "\"Inception\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 6,
+      "value": "\"2010\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3359,
+      "length": 7,
+      "value": "\"PG-13\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3390,
+      "length": 13,
+      "value": "\"16 Jul 2010\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3426,
+      "length": 9,
+      "value": "\"148 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3456,
+      "length": 27,
+      "value": "\"Action, Adventure, Sci-Fi\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3507,
+      "length": 19,
+      "value": "\"Christopher Nolan\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3548,
+      "length": 19,
+      "value": "\"Christopher Nolan\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3589,
+      "length": 54,
+      "value": "\"Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3663,
+      "length": 154,
+      "value": "\"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3841,
+      "length": 27,
+      "value": "\"English, Japanese, French\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3891,
+      "length": 31,
+      "value": "\"United States, United Kingdom\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3944,
+      "length": 49,
+      "value": "\"Won 4 Oscars. 157 wins & 220 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4015,
+      "length": 100,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4141,
+      "length": 5,
+      "value": "\"8.8\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4168,
+      "length": 11,
+      "value": "\"tt1375666\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4199,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4259,
+      "length": 14,
+      "value": "\"Interstellar\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4293,
+      "length": 6,
+      "value": "\"2014\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4320,
+      "length": 7,
+      "value": "\"PG-13\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4351,
+      "length": 13,
+      "value": "\"07 Nov 2014\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4387,
+      "length": 9,
+      "value": "\"169 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4417,
+      "length": 26,
+      "value": "\"Adventure, Drama, Sci-Fi\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4467,
+      "length": 19,
+      "value": "\"Christopher Nolan\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4508,
+      "length": 35,
+      "value": "\"Jonathan Nolan, Christopher Nolan\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4565,
+      "length": 54,
+      "value": "\"Matthew McConaughey, Anne Hathaway, Jessica Chastain\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4639,
+      "length": 101,
+      "value": "\"A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4764,
+      "length": 9,
+      "value": "\"English\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4796,
+      "length": 31,
+      "value": "\"United States, United Kingdom\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4849,
+      "length": 47,
+      "value": "\"Won 1 Oscar. 44 wins & 148 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 4918,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5076,
+      "length": 5,
+      "value": "\"8.7\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5103,
+      "length": 11,
+      "value": "\"tt0816692\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5134,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5194,
+      "length": 14,
+      "value": "\"Pulp Fiction\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5228,
+      "length": 6,
+      "value": "\"1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5255,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5282,
+      "length": 13,
+      "value": "\"14 Oct 1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5318,
+      "length": 9,
+      "value": "\"154 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5348,
+      "length": 14,
+      "value": "\"Crime, Drama\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5386,
+      "length": 19,
+      "value": "\"Quentin Tarantino\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5427,
+      "length": 32,
+      "value": "\"Quentin Tarantino, Roger Avary\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5481,
+      "length": 47,
+      "value": "\"John Travolta, Uma Thurman, Samuel L. Jackson\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5548,
+      "length": 145,
+      "value": "\"The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5717,
+      "length": 26,
+      "value": "\"English, Spanish, French\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5766,
+      "length": 15,
+      "value": "\"United States\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5803,
+      "length": 46,
+      "value": "\"Won 1 Oscar. 70 wins & 75 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 5871,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6029,
+      "length": 5,
+      "value": "\"8.9\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6056,
+      "length": 11,
+      "value": "\"tt0110912\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6087,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6147,
+      "length": 17,
+      "value": "\"The Dark Knight\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6184,
+      "length": 6,
+      "value": "\"2008\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6211,
+      "length": 7,
+      "value": "\"PG-13\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6242,
+      "length": 13,
+      "value": "\"18 Jul 2008\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6278,
+      "length": 9,
+      "value": "\"152 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6308,
+      "length": 22,
+      "value": "\"Action, Crime, Drama\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6354,
+      "length": 19,
+      "value": "\"Christopher Nolan\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6395,
+      "length": 51,
+      "value": "\"Jonathan Nolan, Christopher Nolan, David S. Goyer\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6468,
+      "length": 45,
+      "value": "\"Christian Bale, Heath Ledger, Aaron Eckhart\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6533,
+      "length": 191,
+      "value": "\"When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6748,
+      "length": 19,
+      "value": "\"English, Mandarin\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6790,
+      "length": 31,
+      "value": "\"United States, United Kingdom\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6843,
+      "length": 49,
+      "value": "\"Won 2 Oscars. 159 wins & 163 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 6914,
+      "length": 100,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7040,
+      "length": 5,
+      "value": "\"9.0\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7067,
+      "length": 11,
+      "value": "\"tt0468569\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7098,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7158,
+      "length": 18,
+      "value": "\"Schindler's List\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7196,
+      "length": 6,
+      "value": "\"1993\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7223,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7250,
+      "length": 13,
+      "value": "\"04 Feb 1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7286,
+      "length": 9,
+      "value": "\"195 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7316,
+      "length": 27,
+      "value": "\"Biography, Drama, History\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7367,
+      "length": 18,
+      "value": "\"Steven Spielberg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7407,
+      "length": 34,
+      "value": "\"Thomas Keneally, Steven Zaillian\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7463,
+      "length": 42,
+      "value": "\"Liam Neeson, Ralph Fiennes, Ben Kingsley\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7525,
+      "length": 180,
+      "value": "\"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7729,
+      "length": 33,
+      "value": "\"English, Hebrew, German, Polish\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7785,
+      "length": 15,
+      "value": "\"United States\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7822,
+      "length": 47,
+      "value": "\"Won 7 Oscars. 98 wins & 66 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 7891,
+      "length": 100,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNDE4OTEyNzQ3NF5BMl5BanBnXkFtZTcwNjY1NjM5NA@@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8017,
+      "length": 5,
+      "value": "\"9.0\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8044,
+      "length": 11,
+      "value": "\"tt0108052\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8075,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8135,
+      "length": 10,
+      "value": "\"Parasite\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8165,
+      "length": 6,
+      "value": "\"2019\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8192,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8219,
+      "length": 13,
+      "value": "\"08 Nov 2019\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8255,
+      "length": 9,
+      "value": "\"132 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8285,
+      "length": 25,
+      "value": "\"Comedy, Drama, Thriller\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8334,
+      "length": 14,
+      "value": "\"Bong Joon Ho\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8370,
+      "length": 27,
+      "value": "\"Bong Joon Ho, Han Jin-won\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8419,
+      "length": 42,
+      "value": "\"Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8481,
+      "length": 141,
+      "value": "\"Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8646,
+      "length": 17,
+      "value": "\"Korean, English\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8686,
+      "length": 13,
+      "value": "\"South Korea\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8721,
+      "length": 49,
+      "value": "\"Won 4 Oscars. 308 wins & 263 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8792,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8950,
+      "length": 5,
+      "value": "\"8.5\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 8977,
+      "length": 11,
+      "value": "\"tt6751668\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9008,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9068,
+      "length": 14,
+      "value": "\"Forrest Gump\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9102,
+      "length": 6,
+      "value": "\"1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9129,
+      "length": 7,
+      "value": "\"PG-13\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9160,
+      "length": 13,
+      "value": "\"06 Jul 1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9196,
+      "length": 9,
+      "value": "\"142 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9226,
+      "length": 16,
+      "value": "\"Drama, Romance\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9266,
+      "length": 17,
+      "value": "\"Robert Zemeckis\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9305,
+      "length": 26,
+      "value": "\"Winston Groom, Eric Roth\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9353,
+      "length": 38,
+      "value": "\"Tom Hanks, Robin Wright, Gary Sinise\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9411,
+      "length": 173,
+      "value": "\"The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9608,
+      "length": 9,
+      "value": "\"English\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9640,
+      "length": 15,
+      "value": "\"United States\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9677,
+      "length": 47,
+      "value": "\"Won 6 Oscars. 50 wins & 75 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9746,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9904,
+      "length": 5,
+      "value": "\"8.8\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9931,
+      "length": 11,
+      "value": "\"tt0109830\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 9962,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10022,
+      "length": 12,
+      "value": "\"The Matrix\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10054,
+      "length": 6,
+      "value": "\"1999\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10081,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10108,
+      "length": 13,
+      "value": "\"31 Mar 1999\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10144,
+      "length": 9,
+      "value": "\"136 min\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10174,
+      "length": 16,
+      "value": "\"Action, Sci-Fi\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10214,
+      "length": 33,
+      "value": "\"Lana Wachowski, Lilly Wachowski\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10269,
+      "length": 33,
+      "value": "\"Lilly Wachowski, Lana Wachowski\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10324,
+      "length": 52,
+      "value": "\"Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10396,
+      "length": 190,
+      "value": "\"When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth: the life he knows is the elaborate deception of an evil cyber-intelligence.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10610,
+      "length": 9,
+      "value": "\"English\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10642,
+      "length": 26,
+      "value": "\"United States, Australia\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10690,
+      "length": 47,
+      "value": "\"Won 4 Oscars. 38 wins & 51 nominations total.\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10759,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVlLTM5YTgtZjNmM2I1NjgwZmQwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10917,
+      "length": 5,
+      "value": "\"8.7\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10944,
+      "length": 11,
+      "value": "\"tt0133093\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/MovieDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 10975,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 6,
+      "value": "\"Year\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 512,
+      "length": 8,
+      "value": "\"imdbID\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 6,
+      "value": "\"Type\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 8,
+      "value": "\"Poster\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 14,
+      "value": "\"Blade Runner\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 6,
+      "value": "\"1982\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 764,
+      "length": 11,
+      "value": "\"tt0083658\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 116,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BOWQ4YTBmNTQtMDYxMC00NGFjLTkwOGQtNzdhNmY1Nzc1MzUxXkEyXkFqcGc@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 994,
+      "length": 19,
+      "value": "\"Blade Runner 2049\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 6,
+      "value": "\"2017\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 11,
+      "value": "\"tt1856101\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1092,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1121,
+      "length": 100,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1275,
+      "length": 26,
+      "value": "\"The Shawshank Redemption\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1321,
+      "length": 6,
+      "value": "\"1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1349,
+      "length": 11,
+      "value": "\"tt0111161\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1409,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1595,
+      "length": 17,
+      "value": "\"The Dark Knight\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 6,
+      "value": "\"2008\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1660,
+      "length": 11,
+      "value": "\"tt0468569\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1691,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1720,
+      "length": 100,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1874,
+      "length": 11,
+      "value": "\"Inception\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1905,
+      "length": 6,
+      "value": "\"2010\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 11,
+      "value": "\"tt1375666\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 1993,
+      "length": 100,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2147,
+      "length": 14,
+      "value": "\"Pulp Fiction\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2181,
+      "length": 6,
+      "value": "\"1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2209,
+      "length": 11,
+      "value": "\"tt0110912\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2269,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2455,
+      "length": 14,
+      "value": "\"Interstellar\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2489,
+      "length": 6,
+      "value": "\"2014\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2517,
+      "length": 11,
+      "value": "\"tt0816692\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2548,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2577,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
+      "length": 10,
+      "value": "\"Parasite\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 6,
+      "value": "\"2019\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2821,
+      "length": 11,
+      "value": "\"tt6751668\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2852,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 2881,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3067,
+      "length": 12,
+      "value": "\"The Matrix\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3099,
+      "length": 6,
+      "value": "\"1999\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3127,
+      "length": 11,
+      "value": "\"tt0133093\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3158,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3187,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVlLTM5YTgtZjNmM2I1NjgwZmQwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3373,
+      "length": 14,
+      "value": "\"Forrest Gump\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3407,
+      "length": 6,
+      "value": "\"1994\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3435,
+      "length": 11,
+      "value": "\"tt0109830\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3466,
+      "length": 7,
+      "value": "\"movie\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchedMovie.swift",
+      "kind": "StringLiteral",
+      "offset": 3495,
+      "length": 132,
+      "value": "\"https:\/\/m.media-amazon.com\/images\/M\/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 8,
+      "value": "\"Search\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 14,
+      "value": "\"totalResults\""
+    },
+    {
+      "filePath": "\/Users\/jcharalampidis\/Projects\/MovieApp\/Domain\/Domain\/Network\/Models\/SearchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 10,
+      "value": "\"Response\""
+    }
+  ]
+}

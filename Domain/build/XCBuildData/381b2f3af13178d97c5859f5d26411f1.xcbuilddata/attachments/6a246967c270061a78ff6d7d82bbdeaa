@@ -1,0 +1,41 @@
+{
+  "" : {
+    "const-values" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/ConfidentialUtils-primary.swiftconstvalues",
+    "dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/ConfidentialUtils-primary.d",
+    "diagnostics" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/ConfidentialUtils-primary.dia",
+    "emit-module-dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/ConfidentialUtils-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/ConfidentialUtils-primary-emit-module.dia",
+    "pch" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/ConfidentialUtils-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/ConfidentialUtils-primary.swiftdeps"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialUtils/Extensions/CryptoKit/SymmetricKeySize/SymmetricKeySize+ByteCount.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/SymmetricKeySize+ByteCount.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/SymmetricKeySize+ByteCount.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/SymmetricKeySize+ByteCount.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialUtils/Extensions/Foundation/NSData/NSData.CompressionAlgorithm+MagicNumbers.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/NSData.CompressionAlgorithm+MagicNumbers.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/NSData.CompressionAlgorithm+MagicNumbers.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/NSData.CompressionAlgorithm+MagicNumbers.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialUtils/Extensions/Swift/BinaryInteger/BinaryInteger+Bytes.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/BinaryInteger+Bytes.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/BinaryInteger+Bytes.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/BinaryInteger+Bytes.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialUtils/Extensions/Swift/FixedWidthInteger/FixedWidthInteger+ByteWidth.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/FixedWidthInteger+ByteWidth.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/FixedWidthInteger+ByteWidth.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/FixedWidthInteger+ByteWidth.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialUtils/Extensions/Swift/RandomNumberGenerator/RandomNumberGenerator+System.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/RandomNumberGenerator+System.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/RandomNumberGenerator+System.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/RandomNumberGenerator+System.o"
+  },
+  "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/Sources/ConfidentialUtils/TypeInfo.swift" : {
+    "index-unit-output-path" : "/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/TypeInfo.o",
+    "llvm-bc" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/TypeInfo.bc",
+    "object" : "/Users/jcharalampidis/Library/Developer/Xcode/DerivedData/Domain-grtvmdppdjmlbsawqashaylwsrbg/SourcePackages/checkouts/swift-confidential/build/swift-confidential.build/Release/ConfidentialUtils.build/Objects-normal/x86_64/TypeInfo.o"
+  }
+}

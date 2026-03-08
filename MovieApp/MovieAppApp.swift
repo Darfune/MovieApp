@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct MovieAppApp: App {
+
+    @StateObject var appAssembler = AppAssembler()
+
     var body: some Scene {
         WindowGroup {
             NavigationStack {

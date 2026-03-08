@@ -1,0 +1,132 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios26.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Domain
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum ApiError : Swift.Error, Swift.Equatable {
+  case unauthorized
+  case notFound
+  case serverError
+  case unexpectedStatusCode(Swift.Int)
+  case decodingFailed
+  case invalidResponse
+  public static func == (a: Domain.ApiError, b: Domain.ApiError) -> Swift.Bool
+}
+public struct NetworkConstants {
+  public static var apiKey: Swift.String
+  public static var baseURL: Swift.String
+  public enum HttpHeaderField : Swift.String {
+    case auth
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum Method : Swift.String {
+    case get
+    case post
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public let jsonEncoder: Foundation.JSONEncoder
+public let jsonDecoder: Foundation.JSONDecoder
+extension Swift.Encodable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func encode(_ encoder: Foundation.JSONEncoder = jsonEncoder) -> Foundation.Data?
+  #endif
+}
+extension Swift.Decodable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func decode(from data: Foundation.Data, using decoder: Foundation.JSONDecoder = jsonDecoder) -> Self?
+  #endif
+}
+extension Domain.UrlRequestConvertible {
+  public func asUrlRequest(withTimeout timeoutInterval: Foundation.TimeInterval) throws -> Foundation.URLRequest
+}
+public struct MovieDetails : Swift.Decodable, Swift.Equatable, Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public let title: Swift.String
+  public let year: Swift.String
+  public let rated: Swift.String
+  public let released: Swift.String
+  public let runtime: Swift.String
+  public let genre: Swift.String
+  public let director: Swift.String
+  public let writer: Swift.String
+  public let actors: Swift.String
+  public let plot: Swift.String
+  public let language: Swift.String
+  public let country: Swift.String
+  public let awards: Swift.String
+  public let poster: Swift.String
+  public let imdbRating: Swift.String
+  public let imdbID: Swift.String
+  public let type: Swift.String
+  public static func == (a: Domain.MovieDetails, b: Domain.MovieDetails) -> Swift.Bool
+  public typealias ID = Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Domain.MovieDetails {
+  public static let mocks: [Domain.MovieDetails]
+}
+public struct SearchResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol ApiClient {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func makeRequest<T>(to urlRequest: Foundation.URLRequest) async throws -> T where T : Swift.Decodable
+  #endif
+}
+public protocol ResponseHandler {
+  func validateResponse(_ response: Foundation.URLResponse) throws
+  func decode<T>(_ data: Foundation.Data) throws -> T where T : Swift.Decodable
+}
+public protocol UrlRequestConvertible {
+  var url: Swift.String { get }
+  var queryParams: [Swift.String : Swift.String] { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  var headers: (key: Swift.String, value: Swift.String)? { get }
+  #endif
+  var method: Swift.String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  var body: Foundation.Data? { get }
+  #endif
+  func asURLRequest() throws -> Foundation.URLRequest
+}
+extension Domain.UrlRequestConvertible {
+  public func asURLRequest() throws -> Foundation.URLRequest
+}
+public protocol MovieDetailsProtocol {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchMovieDetails(by id: Swift.Int) async throws -> Domain.MovieDetails
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchMovieDetails(by title: Swift.String) async throws -> Domain.MovieDetails
+  #endif
+}
+public protocol MovieSearchProtocol {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func searchMovies(query: Swift.String, page: Swift.Int) async throws -> Domain.SearchResponse
+  #endif
+}
+extension Domain.NetworkConstants.HttpHeaderField : Swift.Equatable {}
+extension Domain.NetworkConstants.HttpHeaderField : Swift.Hashable {}
+extension Domain.NetworkConstants.HttpHeaderField : Swift.RawRepresentable {}
+extension Domain.NetworkConstants.Method : Swift.Equatable {}
+extension Domain.NetworkConstants.Method : Swift.Hashable {}
+extension Domain.NetworkConstants.Method : Swift.RawRepresentable {}

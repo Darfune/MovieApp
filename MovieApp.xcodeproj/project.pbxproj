@@ -28,6 +28,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6E796F902F5DF17E00F799B2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		6E796C3E2F5C2DDE00F799B2 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E796C4B2F5C2DDE00F799B2 /* MovieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +55,17 @@
 			);
 			target = 6E796C3D2F5C2DDE00F799B2 /* MovieApp */;
 		};
+		6EC62F7F2F5E1C8F009B82F0 /* Exceptions for "MovieApp" folder in "MovieAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Domain/Network/Models/MovieDetail.swift,
+				Domain/Network/Models/SearchedMovie.swift,
+				Domain/Network/Models/SearchResponse.swift,
+				Domain/Network/Protocols/Movies/MovieDetailsProtocol.swift,
+				Domain/Network/Protocols/Movies/MovieSeachProtocol.swift,
+			);
+			target = 6E796C4A2F5C2DDE00F799B2 /* MovieAppTests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -49,6 +73,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				6E796D642F5C489F00F799B2 /* Exceptions for "MovieApp" folder in "MovieApp" target */,
+				6EC62F7F2F5E1C8F009B82F0 /* Exceptions for "MovieApp" folder in "MovieAppTests" target */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -56,11 +81,6 @@
 		6E796C4E2F5C2DDE00F799B2 /* MovieAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MovieAppTests;
-			sourceTree = "<group>";
-		};
-		6E796C582F5C2DDE00F799B2 /* MovieAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MovieAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -97,7 +117,7 @@
 			children = (
 				6E796C402F5C2DDE00F799B2 /* MovieApp */,
 				6E796C4E2F5C2DDE00F799B2 /* MovieAppTests */,
-				6E796C582F5C2DDE00F799B2 /* MovieAppUITests */,
+				6E796F8D2F5DF17E00F799B2 /* Frameworks */,
 				6E796C3F2F5C2DDE00F799B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +132,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6E796F8D2F5DF17E00F799B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +149,7 @@
 				6E796C3A2F5C2DDE00F799B2 /* Sources */,
 				6E796C3B2F5C2DDE00F799B2 /* Frameworks */,
 				6E796C3C2F5C2DDE00F799B2 /* Resources */,
+				6E796F902F5DF17E00F799B2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,9 +203,6 @@
 			);
 			dependencies = (
 				6E796C572F5C2DDE00F799B2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6E796C582F5C2DDE00F799B2 /* MovieAppUITests */,
 			);
 			name = MovieAppUITests;
 			packageProductDependencies = (
