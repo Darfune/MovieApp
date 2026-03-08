@@ -7,4 +7,3 @@
 
 import Foundation
 
-let apiKey = ObfuscatedLiterals.$apiKey

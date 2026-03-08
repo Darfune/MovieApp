@@ -11,7 +11,9 @@ import SwiftUI
 struct MovieAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                SearchView()
+            }
         }
     }
 }

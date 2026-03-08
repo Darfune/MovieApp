@@ -15,7 +15,7 @@ enum GetMovieUrlBuilder: UrlRequestConvertible {
     var url: String { NetworkConstants.baseURL }
     
     var queryParams: [String: String] {
-        var params: [String: String] = ["apikey": apiKey]
+        var params: [String: String] = ["apikey": NetworkConstants.apiKey]
         
         switch self {
         case .byId(let id):

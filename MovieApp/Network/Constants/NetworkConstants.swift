@@ -9,6 +9,8 @@ import Foundation
 
 public struct NetworkConstants {
     
+    static var apiKey = ObfuscatedLiterals.$apiKey
+    
     static var baseURL = "https://www.omdbapi.com"
     
     public enum HttpHeaderField: String {
