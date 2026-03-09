@@ -37,12 +37,10 @@ final class SearchViewModel: ObservableObject {
 
         currentPage = 1
         hasMorePages = true
-
         setState(.loading)
         fetchMovies(page: currentPage, appending: false)
     }
 
-    // Called when user reaches the bottom of the list
     func loadNextPage() {
         guard hasMorePages, !isPaginating else { return }
         guard case .results = state else { return }
@@ -76,9 +74,8 @@ final class SearchViewModel: ObservableObject {
 
                 if appending {
                     guard case .results(let current) = state else { return }
-
-                    let newIDs = Set(newMovies.map(\.imdbID))
                     let existingIDs = Set(current.map(\.imdbID))
+                    let newIDs = Set(newMovies.map(\.imdbID))
 
                     guard !newIDs.isSubset(of: existingIDs) else {
                         hasMorePages = false
@@ -104,13 +101,6 @@ final class SearchViewModel: ObservableObject {
         }
     }
 
-    @MainActor
-    private func setState(_ newState: State) {
-        state = newState
-    }
-
-    @MainActor
-    private func setIsPaginating(_ value: Bool) {
-        isPaginating = value
-    }
+    @MainActor private func setState(_ newState: State) { state = newState }
+    @MainActor private func setIsPaginating(_ value: Bool) { isPaginating = value }
 }
