@@ -8,16 +8,20 @@
 import Foundation
 
 final class ApiClientImplementation: ApiClient {
-    
-    public init() { }
-    
+
+    private let session: URLSession
+
+    public init(session: URLSession = .shared) {
+        self.session = session
+    }
+
     public func makeRequest<T: Decodable>(to urlRequest: URLRequest) async throws -> T {
-        let (data, response) = try await URLSession.shared.data(for: urlRequest)
-        
+        let (data, response) = try await session.data(for: urlRequest)
+
         guard let httpResponse = response as? HTTPURLResponse else {
             throw URLError(.badServerResponse)
         }
-        
+
         switch httpResponse.statusCode {
         case 200...299:
             break
@@ -31,9 +35,6 @@ final class ApiClientImplementation: ApiClient {
             throw ApiError.unexpectedStatusCode(httpResponse.statusCode)
         }
 
-        let decoder = JSONDecoder()
-        let result = try decoder.decode(T.self, from: data)
-        return result
-        
+        return try JSONDecoder().decode(T.self, from: data)
     }
 }

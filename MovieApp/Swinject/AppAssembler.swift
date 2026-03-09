@@ -28,7 +28,6 @@ class AppAssembler: ObservableObject {
         //UseCases
         seatchMoviesUseCaseDependencies()
         fetchMovieDetailsByIdUseCaseDependencies()
-        fetchMovieDetailsByTitleUseCaseDependencies()
     }
     
     //MARK: Network
@@ -54,21 +53,14 @@ class AppAssembler: ObservableObject {
 
     
     private func seatchMoviesUseCaseDependencies() {
-        mainAppContainer.register(SearchMoviesUseCase.self) { resolver in
+        mainAppContainer.register(SearchMoviesUseCaseProtocol.self) { resolver in
             SearchMoviesUseCase(repository: resolver.resolve(MovieSearchProtocol.self)!)
         }
     }
     
     private func fetchMovieDetailsByIdUseCaseDependencies() {
-        mainAppContainer.register(FetchMovieDetailsByIdUseCase.self) { resolver in
+        mainAppContainer.register(FetchMovieDetailsByIdUseCaseProtocol.self) { resolver in
             FetchMovieDetailsByIdUseCase(repository: resolver.resolve(MovieDetailsProtocol.self)!)
         }
     }
-    
-    private func fetchMovieDetailsByTitleUseCaseDependencies() {
-        mainAppContainer.register(FetchMovieDetailsByTitleUseCase.self) { resolver in
-            FetchMovieDetailsByTitleUseCase(repository: resolver.resolve(MovieDetailsProtocol.self)!)
-        }
-    }
-    
 }

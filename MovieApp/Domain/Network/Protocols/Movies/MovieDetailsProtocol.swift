@@ -9,5 +9,9 @@ import Foundation
 
 protocol MovieDetailsProtocol {
     func fetchMovieDetails(by id: String) async throws -> MovieDetails
-    func fetchMovieDetails(with title: String) async throws -> MovieDetails
+}
+
+
+protocol FetchMovieDetailsByIdUseCaseProtocol {
+    func execute(id: String) async throws -> MovieDetails
 }

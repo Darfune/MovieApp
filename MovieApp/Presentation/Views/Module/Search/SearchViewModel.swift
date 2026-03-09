@@ -22,7 +22,7 @@ final class SearchViewModel: ObservableObject {
     @Published private(set) var state: State = .idle
     @Published private(set) var isPaginating = false
 
-    @Inject private var useCase: SearchMoviesUseCase?
+    @Inject var useCase: SearchMoviesUseCaseProtocol?
 
     private var currentPage = 1
     private var hasMorePages = true

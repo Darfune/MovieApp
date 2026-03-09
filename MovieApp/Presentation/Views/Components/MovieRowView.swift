@@ -13,12 +13,8 @@ struct MovieRowView: View {
     var body: some View {
         HStack(spacing: 12) {
             moviePoster
-           
             movieInfo
-
             Spacer()
-
-            chevron
         }
         .padding(.vertical, 4)
     }
@@ -54,12 +50,6 @@ struct MovieRowView: View {
                 .font(.subheadline.monospacedDigit())
                 .foregroundStyle(.secondary)
         }
-    }
-    
-    var chevron: some View {
-        Image(systemName: "chevron.right")
-            .font(.caption.weight(.semibold))
-            .foregroundStyle(Color.cinemaAmber)
     }
         
 }

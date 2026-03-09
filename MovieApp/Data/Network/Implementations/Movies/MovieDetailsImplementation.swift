@@ -19,10 +19,4 @@ final class MovieDetailsImplementation: MovieDetailsProtocol {
         let url = try GetMovieUrlBuilder.byId(id: id).asURLRequest()
         return try await apiClient.makeRequest(to: url)
     }
-    
-    func fetchMovieDetails(with title: String) async throws -> MovieDetails {
-        let url = try GetMovieUrlBuilder.byTitle(title: title).asURLRequest()
-        return try await apiClient.makeRequest(to: url)
-    }
-    
 }

@@ -18,3 +18,5 @@ final class FetchMovieDetailsByIdUseCase {
         try await repository.fetchMovieDetails(by: id)
     }
 }
+
+extension FetchMovieDetailsByIdUseCase: FetchMovieDetailsByIdUseCaseProtocol {}

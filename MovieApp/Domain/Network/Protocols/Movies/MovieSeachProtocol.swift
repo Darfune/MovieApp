@@ -10,3 +10,7 @@ import Foundation
 protocol MovieSearchProtocol {
     func searchMovies(query: String, page: Int) async throws -> SearchResponse
 }
+
+protocol SearchMoviesUseCaseProtocol {
+    func execute(query: String, page: Int) async throws -> SearchResponse
+}

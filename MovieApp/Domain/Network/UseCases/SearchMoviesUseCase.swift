@@ -18,3 +18,5 @@ final class SearchMoviesUseCase {
         try await repository.searchMovies(query: query, page: page)
     }
 }
+
+extension SearchMoviesUseCase: SearchMoviesUseCaseProtocol {}

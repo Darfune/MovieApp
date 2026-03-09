@@ -19,7 +19,7 @@ final class MovieDetailViewModel: ObservableObject {
 
     @Published private(set) var state: State = .idle
 
-    @Inject private var useCase: FetchMovieDetailsByIdUseCase?
+    @Inject var useCase: FetchMovieDetailsByIdUseCaseProtocol?
 
     init() {}
 
