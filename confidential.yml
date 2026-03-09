@@ -1,8 +1,0 @@
-algorithm:
- - compress using lzma
- - encrypt using aes-256-gcm
- - shuffle
-defaultNamespace: create ObfuscatedLiterals
-secrets:
-  - name: apiKey
-    value: 148ffb66
